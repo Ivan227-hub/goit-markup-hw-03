@@ -217,8 +217,7 @@ a {
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  margin-bottom: 8px;
-
+ 
   }
 
  .team-list ul {
@@ -357,3 +356,6 @@ a {
   margin-bottom: 8px; /* ✅ отступ между заголовком и параграфом */
 }
 
+.team-subtitle {
+  margin-bottom: 8px; /* ✅ отступ между заголовком и параграфом */
+}
