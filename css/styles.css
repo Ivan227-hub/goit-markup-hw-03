@@ -37,10 +37,12 @@ img {
   gap: 20px;
 }
 
-.section {
+.hero section {
   padding: 188px 0 188px;
 }
-
+.section  {
+padding: 120px 0 120px;
+}
 
 h1, h2, h3, p, ul {
   margin: 0;
@@ -177,6 +179,11 @@ a {
   width: calc((100% - 72px) / 4);
 }
 
+.value-text{
+  text-align: center;
+}
+
+
 .value-title {
   margin-bottom: 8px;
   font-weight: 500;
@@ -184,13 +191,18 @@ a {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+   text-align: left; 
+   
 }
-
-.value-text {
+.team-info {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+  padding: 32px 0;
+   text-align: center;
+   margin-bottom: 8px;  
+   
 }
 
 .team-list {
@@ -207,7 +219,7 @@ a {
   text-transform: capitalize;
   }
 
-.team-list ul {
+ .team-list ul {
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -225,6 +237,7 @@ a {
   background-size: 100% 1px;
   background-position: bottom;
   text-align: center;
+  row-gap: 48px;
 }
 
 .portfolio-list ul {
@@ -252,6 +265,7 @@ a {
   color: #2E2F42;
   letter-spacing: 0.02em;
   text-align: center;
+  margin-bottom: 72px;;
 }
 
 
@@ -282,17 +296,15 @@ a {
   color: var(--footer-text-color);
   max-width: 312px;
   margin-top: 16px;
+  display: inline-block; 
+  margin-bottom: 16px
 }
 
-.visually-hidden {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
+.hidden-accessible {
+  font-size: 0;
+  line-height: 0;
+  height: 0;
   overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0;
 }
 /* Виправлення відповідно до вимог */
 
@@ -322,11 +334,4 @@ a {
   color: #434455;
 }
 
-/*.hero-section,
-.values-section,
-.team-list-section,
-.portfolio-list-section
- {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}*/
+
