@@ -172,7 +172,7 @@ a {
 .values-list {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
+  
 }
 
 .values-list li {
@@ -223,7 +223,6 @@ a {
  .team-list ul {
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
   justify-content: center;
 }
 
