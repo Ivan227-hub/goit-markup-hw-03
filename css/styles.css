@@ -228,14 +228,10 @@ a {
 
 .list-item {
   background-color: #fff;
-  padding-bottom: 17px;
   max-width: 264px;
   border-radius: 0 0 8px 8px;
   border: 1px solid rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(to bottom, transparent 99%, #ccc 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: bottom;
+  width: calc((100% - 72px)/4); 
   text-align: center;
   row-gap: 48px;
 }
@@ -247,17 +243,14 @@ a {
   justify-content: center;
   padding: 0;
   row-gap: 48px;
+ 
 }
 
 .portfolio-list li {
-  max-width: 360px;
   background-color: #fff;
   border: 1px solid #E7E9FC;
-  background-image: linear-gradient(to bottom, transparent 99%, #ccc 100%);
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: bottom;
-  padding-bottom: 17px;
+  width: calc((100% - 48px)/3); 
+   
 }
 
 .portfolio-link {
