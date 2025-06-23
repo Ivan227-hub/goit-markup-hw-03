@@ -252,7 +252,7 @@ a {
    box-sizing: border-box;
 }
 
-.portfolio-items-list > li.list-item:first-child {
+.portfolio-items-list li:first-child {
   width: calc((100% - 48px) / 3);
 }
 
