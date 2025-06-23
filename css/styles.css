@@ -251,8 +251,18 @@ a {
   border: 1px solid #E7E9FC;
    box-sizing: border-box;
 }
+.portfolio-items-list li.list-item {
+  width: calc((100% - 72px) / 4);
+  border-radius: 0 0 8px 8px;
+  text-align: center;
+}
 
+.portfolio-items-list li.list-item:first-child {
+  width: calc((100% - 48px) / 3);
+  border-radius: 0 0 4px 4px;
+}
 .portfolio-items-list li:first-child {
+
   width: calc((100% - 48px) / 3);
 }
 
